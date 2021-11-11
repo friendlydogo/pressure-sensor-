@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="S({+C;`^)2Y$+cVBM/7l">Value</variable></variables><block type="pxt-on-start" id="gGAHpvzOL|]hUOF2nhw!" x="20" y="20"/><block type="device_forever" id="h.DuBPf!A9.j0$C^y:|8" x="236" y="155"><statement name="HANDLER"><block type="variables_set" id="C^k%@6U-vp~qy{%[dwLK"><field name="VAR" id="S({+C;`^)2Y$+cVBM/7l">Value</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="j|8Z]JiR1Mu-iA0|g~NW"><field name="name">AnalogPin.P1</field></block></value><next><block type="device_show_number" id="7GRzR%Zw.vGMTp=D^dvz"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="d6@e{kG.svG8I1FN;FS~"><field name="VAR" id="S({+C;`^)2Y$+cVBM/7l">Value</field></block></value><next><block type="controls_if" id="8f^M@_E@F2jC2O+?mPDL"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="LH|mj!Ze!IWd%h)K$dKN"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="~0:raGhv.aBWvj.ZRx:m"><field name="VAR" id="S({+C;`^)2Y$+cVBM/7l">Value</field></block></value><value name="B"><shadow type="math_number" id="|mia_P@N`MqII^F_rL{J"><field name="NUM">300</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="muIr)YtvkaotE_q`jP+m"><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        # # # # # 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="sa=ex%+nxceh{vRDbt9Y"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>
